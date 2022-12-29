@@ -29,7 +29,7 @@ class Register(Resource):
 
         # Get the data
         username = postedData["username"]
-        password = postedData["password"]  # "123xyz"
+        password = postedData["password"]  
 
         if UserExist(username):
             retJson = {
